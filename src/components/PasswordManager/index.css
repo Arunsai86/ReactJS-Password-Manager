@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+}
+.app-container {
+  background-color: #9ba9eb;
+  padding: 25px;
+}
+.app-log {
+  width: 100px;
+}
+.top-section {
+  background-color: #5763a5;
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.form-container {
+  width: 40%;
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 15px;
+  flex-grow: 1;
+}
+.form-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.input-container {
+  background-color: #ffffff;
+  height: 35px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.icon {
+  width: 15px;
+}
+.input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+.add-btn {
+  width: 80px;
+  height: 25px;
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.add-btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.img-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .img-container {
+    display: none;
+  }
+}
+.password-manager-image {
+  width: 65%;
+}
+.bottom-section {
+  background-color: #5763a5;
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  min-height: 300px;
+  padding: 20px;
+}
+.pwd-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.search-container {
+  background-color: #ffffff;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+}
+.search-input {
+  outline: none;
+  width: 100%;
+}
+.password-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.no-password-image {
+  width: 50%;
+}
+.no-password-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.no-pwd-text {
+  color: #ffffff;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+label {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.checkbox-container {
+  text-align: end;
+  margin-top: 10px;
+}
+.count {
+  color: #ffffff;
+}
